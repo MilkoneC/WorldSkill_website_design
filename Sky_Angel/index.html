@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ABCS</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="JQuery/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="JQuery/game.js"></script>
+</head>
+	
+<body>
+	<img src="images/co0.png" id="cloud0" style="display:none" />
+	<img src="images/co1.png" id="cloud1" style="display:none" />
+	<img src="images/co2.png" id="cloud2" style="display:none" />
+	<img src="images/co3.png" id="cloud3" style="display:none" />
+	
+	<img src="images/gas1.png" id="gas1" style="display:none" />
+	<img src="images/gas2.png" id="gas2" style="display:none" />
+	<img src="images/gas3.png" id="gas3" style="display:none" />
+	<img src="images/gas4.png" id="gas4" style="display:none" />
+	
+	<img src="images/A1.png" id="birda1" style="display:none"/>
+	<img src="images/A2.png" id="birda2" style="display:none"/>
+	<img src="images/A3.png" id="birda3" style="display:none"/>
+	<img src="images/A4.png" id="birda4" style="display:none"/>
+	
+	<img src="images/B1.png" id="birdb1" style="display:none"/>
+	<img src="images/B2.png" id="birdb2" style="display:none"/>
+	<img src="images/B3.png" id="birdb3" style="display:none"/>
+	<img src="images/B4.png" id="birdb4" style="display:none"/>
+	
+	<img src="images/C1.png" id="birdc1" style="display:none"/>
+	<img src="images/C2.png" id="birdc2" style="display:none"/>
+	<img src="images/C3.png" id="birdc3" style="display:none"/>
+	<img src="images/C4.png" id="birdc4" style="display:none"/>
+	
+	<img src="images/D1.png" id="birdd1" style="display:none"/>
+	<img src="images/D2.png" id="birdd2" style="display:none"/>
+	<img src="images/D3.png" id="birdd3" style="display:none"/>
+	<img src="images/D4.png" id="birdd4" style="display:none"/>
+	
+	<img src="images/S1.png" id="star1" style="display:none"/>
+	<img src="images/S2.png" id="star2" style="display:none"/>
+	<img src="images/S3.png" id="star3" style="display:none"/>
+	<img src="images/S4.png" id="star4" style="display:none"/>
+	<img src="images/S5.png" id="star5" style="display:none"/>
+	<img src="images/S6.png" id="star6" style="display:none"/>
+	<img src="images/S7.png" id="star7" style="display:none"/>
+	
+	<img src="images/F1.png" id="f1" style="display:none"/>
+	<img src="images/F2.png" id="f2" style="display:none"/>
+	<img src="images/F3.png" id="f3" style="display:none"/>
+	<img src="images/F4.png" id="f4" style="display:none"/>
+	
+	<img src="images/star_gold_256.png" id="star" style="display:none"/>
+	<img src="images/fuel-gauge-512.png" id="gas" style="display:none"/>
+	
+	<img src="images/son.png" id="son" style="display:none"/>
+	
+	<img src="images/AA.png" id="AA" style="display:none"/>
+	
+	<audio id="background_audio" style="display:none"  type="audio/mp3">
+		<source src="sound/background.mp3" type="audio/mp3">
+	</audio>
+	<audio id="finish_audio" style="display:none">
+  		<source src="sound/finish.mp3" type="audio/mp3">
+	</audio>
+	<audio id="hit_audio" style="display:none">
+  		<source src="sound/hit.mp3" type="audio/mp3">
+	</audio>
+	<audio id="star_audio" style="display:none">
+  		<source src="sound/star.mp3" type="audio/mp3">
+	</audio>
+	<div class="view">
+		<canvas id="gameview" width="1024px" height="768px" style="background: #019bbd" >
+		</canvas>
+		<div id="audioc" class="audioc fixed" ></div>
+		<div id="audioo" class="audioo fixed" ></div>
+		<div id="begin" class="begin fixed" ></div>
+		<div id="stop" class="stop fixed" ></div>
+		<div id="fontjia" class="fixed fontjia"></div>
+		<div id="fontjian" class="fixed fontjian"></div>
+		<div id="formbox" class="formbox fixed">
+			<form>
+				you name: <input type="text" onkeyup="username(this.value)"><br>
+				<input type="submit" value="提交" id="submit" disabled="disabled" style="width: 100px; height:50px; background: #f39c12">
+			</form>	
+		</div>
+		<div class="fixed shuom" id="shuom">
+			游戏说明
+			方向键移动
+			空格射击
+			pause break暂停
+		</div>
+		<div  class="fixed paih" id="paih">
+			排行榜
+		</div>
+		<button class="fixed begingame" id="begingame">
+			开始游戏
+		</button>
+		<img src="logo/log.png" id="log" class="log fixed"/>
+	</div>
+	
+	
+		<div id="slider"></div>
+</body>
+</html>

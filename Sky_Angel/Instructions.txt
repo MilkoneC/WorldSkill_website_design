@@ -1,0 +1,20 @@
+How to Play
+
+1. Move the airplane using the arrows keys;
+2. The timer present the time lapsed;
+3. The fuel counter show the remain fuel;
+4. During the flight, the aircraft need to avoid the birds that are presented in the sky. If the airplane hit a bird, the game is over;
+5. You can shot the birds by press space key;
+6. During the flight, the aircraft need to collect fuel and stars in the sky; 
+7. You can pause the game clicking in a button pause, or pressing the space bar.
+8. Go beyond all limits;
+Flight in Sky Angel Challenge...
+1. 使用箭头键移动飞机;
+2. 计时器显示时间已过;
+3.燃料计数器显示剩余燃料;
+4. 在飞行过程中，飞机需要避开出现在天空中的鸟类。如果飞机撞上了一只鸟，游戏就结束了;
+5. 你可以按空格键射击小鸟;
+6. 在飞行过程中，飞机需要收集空中的燃料和星星;
+7. 你可以暂停游戏点击暂停按钮，或者按下空格键。
+8. 超越一切限制;
+空中飞行天使挑战…
